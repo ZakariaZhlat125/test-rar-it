@@ -1,0 +1,31 @@
+body {
+  margin: 20px;
+  padding: 20px;
+}
+.container {
+display: flex;
+flex-direction: column;
+}
+.bigbox {
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.task-list {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.task-item {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  margin-bottom: 5px;
+  padding: 10px;
+  cursor: grab;
+  position: relative;
+}
+.delete-btn {
+  position: absolute;
+}

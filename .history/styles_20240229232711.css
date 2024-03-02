@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    border: 1px solid #ccc;
+    margin: 10px;
+    overflow: auto;
+}
+
+.draggable {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    cursor: grab;
+}
+
+.droppable {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
